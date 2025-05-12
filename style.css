@@ -1,0 +1,160 @@
+
+  .wrapper {
+    display: inline-grid;
+    border: 1px solid #999;
+    background-color: #999;
+  }
+  
+  .wrapper > div {
+
+    border: 1px solid #999;
+    background-color: #999;
+    padding: 0.3em;
+    color: #d9480f;
+    display: inline-block;
+    width: auto;
+    max-width: 100%; 
+    
+  }
+
+#info{
+    display: inline-flex;
+    margin-top: 1.5cm;
+    font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 10px;
+}
+
+#main-header {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    height: 80px;
+}
+
+.site-name{
+    text-decoration: overline red;  
+}
+
+#main-header a {
+    color: rgb(0, 0, 0);
+}
+
+#logo-header {
+	float: left;
+	padding: 15px 0 0 20px;
+	text-decoration: none;
+}
+	#logo-header:hover {
+		color:rgb(238 0 0);
+	}
+	
+	#logo-header .site-name {
+		display: block;
+		font-weight: 700;
+		font-size: 1.2em;
+	}
+	
+	#logo-header .site-desc {
+		display: block;
+		font-weight: 300;
+		font-size: 0.8em;
+		color: #999;
+	}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+}
+
+nav ul li a {
+    display: block;
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background: red;
+}
+
+
+.layout {
+    display: grid;
+    grid-template-columns: 1fr minmax(300px, 800px) 1fr; /* lados y contenido */
+    gap: 20px;
+    margin-top: 2rem;
+  }
+  
+  .side {
+    background-color: #eee; /* bordes laterales visibles */
+    min-height: 100px;
+  }
+  
+  .centered-text {
+    background-color: #fefefe;
+    padding: 20px;
+    border: 1px solid #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+  }
+  
+
+  /*Calendario*/
+  * Calendar container */
+        .calendar {
+            width: 450px;
+            border: 1px solid #ddd;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Calendar header styling */
+        .calendar-header {
+            text-align: center;
+            background-color: #007bff;
+            color: white;
+            padding: 10px;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+
+        /* Days of the week styling */
+        .calendar-days {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            background-color: #007bff;
+            color: white;
+        }
+
+        .calendar-days div {
+            padding: 10px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        /* Date cells styling */
+        .calendar-dates {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+        }
+
+        .calendar-dates div {
+            padding: 20px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+
+        /* Highlight today */
+        .today {
+            background-color: #ffdd57;
+            font-weight: bold;
+        }
