@@ -1,5 +1,5 @@
 body {
-    background-image: url('track.png');
+    background-image: url('images/track.png');
     /* Cambia 'tu-imagen.jpg' por tu imagen */
     background-size: cover;
     /* Ajusta la imagen para cubrir toda la página */
@@ -8,6 +8,7 @@ body {
     background-repeat: no-repeat;
     /* Evita la repetición */
 }
+
 
 .wrapper {
     display: inline-grid;
@@ -38,8 +39,8 @@ body {
 #main-header {
     background: #999;
     color: rgb(0, 0, 0);
-    height: 80px;
-    border: 2px solid black;
+    height: 85px;
+    border: 2px red double;
 }
 
 .site-name {
@@ -126,10 +127,6 @@ table {
     background-color: aliceblue;
 }
 
-#hora {
-    size: 140cm;
-}
-
 .side {
     width: 100%;
     /* Expand the sidebar */
@@ -144,12 +141,26 @@ table {
     height: auto;
 }
 
+.calendar td:hover {
+    outline: #da1616 solid 2px;
+    font-weight: bold;
+}
+ 
+#tandas{
+    background-color: cornsilk;
+    font-weight: bold;
+}
+
 h3 {
     font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
     font-weight: bold;
     padding: 10px;
     text-align: center;
     color: #d9480f;
+    outline-style: solid;
+    outline-color: #d9270f;
+    outline-width: 2px;
+    background-color: black;
 }
 
 td {

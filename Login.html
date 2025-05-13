@@ -3,13 +3,14 @@
 
     <head>
         <title>Login</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="mainStyle.css">
+        <script src="script.js" defer></script>
     </head>
 
     <header id="main-header">
 
         <a id="logo-header" href="https://www.formula1.com/">
-            <img alt="F1_logo" src="F1.svg.png" height="30"
+            <img alt="F1_logo" src="images/F1.svg.png" height="30"
                 width="200">
             <span class="site-name">Gran Premio Aragón F1</span>
             <span class="site-desc">Evento Formula 1 MotorLand</span>
@@ -32,38 +33,40 @@
         <div class="layout">
             <div class="side">
                 <div class="side-text">
-                    <h1>Calendario</h1>
                     <h3 id="canlendarIdTexto">Calendario de eventos de la
                         Fórmula 1 en MotorLand Aragón</h3>
-                    <table class="calendar" border="10">
-                        <th colspan="7">
-                            Mayo
-                        </th>
-                    </tr>
+                    <table class="calendar" border>
+                        <thead>
+                            <tr>
+                                <th colspan="7">
+                                    Mayo
+                                </th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    Lunes
+                                </th>
+                                <th>
+                                    Martes
+                                </th>
+                                <th>
+                                    Miercoles
+                                </th>
+                                <th>
+                                    Jueves
+                                </th>
+                                <th>
+                                    Viernes
+                                </th>
+                                <th>
+                                    Sabado
+                                </th>
+                                <th>
+                                    Domingo
+                                </th>
+                            </tr>
+                        </thead>
                     <tr>
-                        <th>
-                            Lunes
-                        </th>
-                        <th>
-                            Martes
-                        </th>
-                        <th>
-                            Miercoles
-                        </th>
-                        <th>
-                            Jueves
-                        </th>
-                        <th>
-                            Viernes
-                        </th>
-                        <th>
-                            Sabado
-                        </th>
-                        <th>
-                            Domingo
-                        </th>
-                    </tr>
-                    <tr>
                         <td>
                             08:00
                         </td>
@@ -79,7 +82,7 @@
                         <td>
                             08:00
                         </td>
-                        <td>
+                        <td id="tandas">
                             08:00
                         </td>
                         <td>
@@ -119,8 +122,9 @@
                         <td>
                             10:00
                         </td>
-                        <td>
-                            10:00
+                        <td id="tandas">
+                            <a href="tandas.html">10:00
+                            Tandas</a>
                         </td>
                         <td>
                             10:00
@@ -205,7 +209,7 @@
             </div> <!-- Borde lateral izquierdo -->
 
             <div class="centered-text"> <!-- Texto centrado -->
-                <div><img alt="Pista MotorLand" src="motorlandShot.jpg" /></div>
+                <div><img alt="Pista MotorLand" src="images/motorlandShot.jpg" /></div>
                 <p id="info">
                     Gran Premio de Aragón - Fórmula 1 en MotorLand
 
@@ -225,9 +229,9 @@
                     coches alcanzan velocidades sorprendentes. Los equipos
                     trabajan
                     meticulosamente en la estrategia, ajustando los
-                    neumáticos y los
-                    aerodinámicos para aprovechar cada milímetro del
-                    asfalto.<br>
+                    neumáticos y la
+                    aerodinámica para aprovechar cada milímetro del
+                    asfalto y rascar unas milésimas.<br>
                     <br>
                     Además de las carreras, el evento cuenta con actividades
                     para los
@@ -239,14 +243,16 @@
                     vibrante y
                     multicultural.<br>
                     <br>
-                    La carrera principal, celebrada el domingo, será el
+                    La carreras principales, celebradas el sábado y domingo, serán el
                     punto culminante
                     del fin de semana, donde los espectadores en las gradas
                     animarán sin
                     descanso mientras los monoplazas compiten por el
-                    codiciado título.<br>
+                    codiciado título.
+                    <br>
                 </p>
             </div>
+        </div>
         </div>
     </body>
 </html>
