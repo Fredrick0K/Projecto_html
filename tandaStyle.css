@@ -2,17 +2,16 @@
     display: grid;
     grid-template-columns: 1fr;
     /* lados y contenido */
-    gap: 20px;
-    margin-top: 2rem;
+    grid-template-rows: auto 1fr auto;
+    justify-items: center;
+    align-items: center;
 }
 
 .trackLayout {
-    background-image: 'image/layout.png'; 
-    display: block;
+    display: grid;
     position: absolute;
-    right: 0;
+    right: center;
     top: 0;
     width: 300px; /* Adjust width as needed */
     height: 100%; /* Full height */
-    background-color: #f0f0f0; /* Optional: Add a background color */
 }
