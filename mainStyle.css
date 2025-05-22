@@ -8,45 +8,21 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* ----- ENCABEZADO Y LOGO ----- */
-header, #main-header {
-    background: #999;
-    color: rgb(0, 0, 0);
-    height: 85px;
-    border: 2px red double;
-    text-align: center;
-    padding: 10px;
-}
+/* ----- LOGO ----- */
 
 #logo-header {
     float: left;
-    padding: 15px 0 0 20px;
+    margin: 10px;
+    width: 80px;
+    height: 160px;
+
     text-decoration: none;
 }
 
-#logo-header:hover {
-    color: rgb(238, 0, 0);
-}
-
-#logo-header .site-name {
-    display: block;
-    font-weight: 700;
-    font-size: 1.2em;
-}
-
-#logo-header .site-desc {
-    display: block;
-    font-weight: 300;
-    font-size: 0.8em;
-    color: #da1616;
-}
-
 /* ----- NAVEGACIÓN ----- */
-nav {
-    float: right;
-}
 
-nav ul {
+
+/*nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -66,7 +42,7 @@ nav ul li a {
 
 nav ul li a:hover {
     background: red;
-}
+}*/
 
 /* ----- SECCIÓN PRINCIPAL ----- */
 .content {
@@ -159,7 +135,7 @@ h3 {
     outline-style: solid;
     outline-color: #d9270f;
     outline-width: 2px;
-    background-color: black;
+    background-color: rgba(231, 231, 231, 0.281);
 }
 
 td {
@@ -168,4 +144,253 @@ td {
     padding: 10px;
     text-align: center;
     color: #000000;
+}
+
+
+/*CSS DANI LANA */
+
+body {
+    background-color: whitesmoke;
+    height: auto;
+}
+
+/* Estilo de los titulos*/
+
+h1 {
+    margin-left: 5%;
+    margin-bottom: 2%;
+}
+
+h2 {
+    color: white;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: black;
+    font-style: italic;
+    font-size: 25px;
+}
+
+p {
+    font-family: arial;
+    font-size: 20px;
+}
+
+/* Estilos de la barra de navegacion*/
+
+.navegador {
+    display: flex;
+    align-items: center; /* Centra verticalmente el contenido */
+    justify-content: center; /* Centra los elementos en la barra */
+    background-color: white;
+    box-shadow: -5px -5px 10px rgba(0, 0, 0, 0.3);
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 80%;
+    padding: 10px;
+
+}
+
+.navegador ul {
+    padding: 0px;
+    margin: 10px;
+}
+
+.navegador ul li {
+    display: inline-block;
+    margin-inline: 10px;
+    vertical-align: middle;
+}
+
+.login {
+    float: right;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    font-family: arial;
+    font-size: 15px;
+    color: seagreen;
+}
+
+.logo img {
+    width: 50px;
+}
+
+
+.navegador a:hover {
+    color: darkgreen;
+    font-weight: bold;
+}
+
+/* Estilos del Grid y contenedores */
+
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 65%;
+    height: auto;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 3%;
+    margin: auto;
+    margin-bottom: 2%;
+    align-items: stretch;
+}
+
+.contenedor section {
+    background-color: whitesmoke;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    height: 90%;
+}
+
+.contenedor .imagen {
+    grid-column: 1 / span 3;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../imagenes/carrera.png");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.contenedor .zaragoza {
+	grid-column: span 2;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../imagenes/zaragoza.png");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.contenedor .madrid {
+	grid-column: span 2;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../imagenes/madrid.png");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.contenedor .ropa {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../imagenes/ropa.png");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.contenedor .ganadores {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../imagenes/trofeo.png");
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+}
+
+.fechas {
+    color: white;
+    font-size: 25px;
+}
+
+.consultar {
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* PAGINA QUIENES SOMOS*/
+
+.principal {
+    width: 65%;
+    height: auto;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 3%;
+    margin: auto;
+    text-align: left;
+    align-items: stretch;
+}
+
+.principal h2 {
+    color: black;
+    font-size: 30px;
+    margin-bottom: 2%;
+}
+
+#informacion {
+    margin-top: -35px;
+}
+
+.principal img {
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+
+/* Este es el diseño del Footer*/
+
+footer {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: white;
+    box-shadow: -5px -5px 10px rgba(0, 0, 0, 0.3);
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border: 1px solid white;
+    border-radius: 10px;
+    height: auto;
+    width: 75%;
+    justify-content: center;
+}
+
+footer h2 {
+	color: black;
+    font-size: 30px;
+    margin: auto;
+}
+
+footer ul {
+	list-style: none;
+    padding-left: 0;
+}
+
+footer a {
+    font-family: arial;
+    color: black;
+    font-size: 15px;
+}
+
+footer li {
+    padding: 5px;
+}
+
+footer div {
+    min-width: 200px;
+    margin: 10px;
+}
+
+.social ul {
+    display: inline-flex;
+}
+
+.social a {
+    font-size: 20px;
+    margin: 5px;
+}
+
+.social a:hover {
+    color: darkgreen;
+    font-weight: bold;
+    font-size: 30px;
 }
