@@ -1,0 +1,570 @@
+/*ESTILOS DANIEL LANA*/
+body {
+    background-color: whitesmoke;
+    height: auto;
+}
+
+/* Estilo de los titulos*/
+
+h1 {
+    margin-left: 5%;
+    margin-bottom: 2%;
+}
+
+h2 {
+    color: white;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: black;
+    font-style: italic;
+    font-size: 25px;
+}
+
+p {
+    font-family: arial;
+    font-size: 20px;
+}
+
+/* Estilos de la barra de navegacion*/
+
+.navegador {
+    background-color: white;
+    box-shadow: -5px -5px 10px rgba(0, 0, 0, 0.3);
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 80%;
+}
+
+.navegador ul {
+    padding: 0px;
+    margin: 10px;
+}
+
+.navegador ul li {
+    display: inline-block;
+    margin-inline: 10px;
+    vertical-align: middle;
+}
+
+.login {
+    float: right;
+    margin: 10px;
+}
+
+.navegador a {
+    text-decoration: none;
+    font-family: arial;
+    font-size: 20px;
+    color: seagreen;
+}
+
+.logo img {
+    width: 50px;
+}
+
+
+.navegador a:hover {
+    color: darkgreen;
+    font-weight: bold;
+}
+
+/* Estilos del Grid y contenedores */
+
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 65%;
+    height: auto;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 3%;
+    margin: auto;
+    margin-bottom: 2%;
+    align-items: stretch;
+}
+
+.contenedor section {
+    background-color: whitesmoke;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    height: 90%;
+}
+
+.contenedor .imagen {
+    grid-column: 1 / span 3;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../imagenes/carrera.png");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.contenedor .zaragoza {
+	grid-column: span 2;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../imagenes/zaragoza.png");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.contenedor .madrid {
+	grid-column: span 2;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../imagenes/madrid.png");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.contenedor .ropa {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../imagenes/ropa.png");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.contenedor .ganadores {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../imagenes/trofeo.png");
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+}
+
+.fechas {
+    color: white;
+    font-size: 25px;
+}
+
+.consultar {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    font-family: arial;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* PAGINA QUIENES SOMOS*/
+
+.principal {
+    width: 65%;
+    height: auto;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 3%;
+    margin: auto;
+    text-align: left;
+    align-items: stretch;
+}
+
+.principal h2 {
+    color: black;
+    font-size: 30px;
+    margin-bottom: 2%;
+}
+
+.informacion {
+    margin-top: -35px;
+}
+
+.informacion a {
+    color: black;
+}
+
+.informacion ol {
+    font-size: 20px;
+}
+
+.principal img {
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+
+/* Este es el diseño del Footer*/
+
+footer {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: white;
+    box-shadow: -5px -5px 10px rgba(0, 0, 0, 0.3);
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border: 1px solid white;
+    border-radius: 10px;
+    height: auto;
+    width: 75%;
+    justify-content: center;
+}
+
+footer h2 {
+	color: black;
+    font-size: 30px;
+    margin: auto;
+}
+
+footer ul {
+	list-style: none;
+    padding-left: 0;
+}
+
+footer a {
+    font-family: arial;
+    color: black;
+    font-size: 20px;
+}
+
+footer li {
+    padding: 5px;
+}
+
+footer div {
+    min-width: 200px;
+    margin: 10px;
+}
+
+.social ul {
+    display: inline-flex;
+}
+
+.social a {
+    font-size: 25px;
+    margin: 5px;
+}
+
+.social a:hover {
+    color: darkgreen;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/*ESTILOS DE MOHA*/
+
+.bodyMoha {
+    background-image: url("../imagenes/carreraCoche.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* ----- SECCIÓN PRINCIPAL ----- */
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    gap: 10px;
+}
+
+.image {
+    flex: 0 0 auto;
+    height: 280px;
+    margin-left: 12px;
+}
+
+/* ----- EFECTOS VISUALES ----- */
+
+.text, .blur-cont {
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(20px);
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+}
+
+.date {
+    font-weight: bold;
+    text-align: right;
+}
+
+/* ----- LAYOUT Y ESTRUCTURA ----- */
+
+.layout {
+    display: grid;
+    margin-left: 9%;
+    grid-template-columns: 1fr minmax(300px, 800px) 1fr;
+    gap: 20px;
+}
+
+.side {
+    background-color: transparent;
+    min-height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.centered-text {
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(20px);
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+/* ----- TABLAS Y ELEMENTOS EXTRAS ----- */
+
+#TxtCalendar {
+    font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: rgba(231, 231, 231, 0.281);
+    margin-right: 10px;
+}
+
+table {
+    border: 1px solid black;
+    background-color: aliceblue;
+}
+
+th, td {
+    border: 1px solid black;
+}
+
+.calendar {
+    width: 50%;
+    height: auto;
+    margin-right: 10px;
+}
+
+.calendar td:hover {
+    outline: #da1616 solid 2px;
+    font-weight: bold;
+}
+
+td {
+    font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    color: #000000;
+}
+
+/*CONTENIDO TANDAS*/
+
+#tandas {
+    background-color: cornsilk;
+    font-weight: bold;
+}
+
+
+.contenidoTandas {
+    background: rgba(255, 255, 255, 0.3);
+    /* Fondo semitransparente */
+    backdrop-filter: blur(20px);
+    /* Aplica desenfoque */
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+}
+
+.contenidoTandas li {
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
+.text {
+    flex: 1;
+    text-align: center;
+    font-size: 1.2em;
+    background: rgba(255, 255, 255, 0.404);
+    backdrop-filter: blur(90px);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+
+/*ESTILOS RUBEN*/
+
+form {
+    width: 60%;
+    margin: 40px auto;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+form h1, form h2 {
+    text-align: center;
+    color: seagreen;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #333;
+}
+
+form input[type="text"], form input[type="number"], form input[type="email"], form input[type="file"], form input[type="password"], form select, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+form input[type="radio"] {
+    margin-right: 6px;
+}
+
+form textarea {
+    resize: vertical;
+}
+
+form input[type="submit"], form button[type="submit"] {
+    background-color: seagreen;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover, form button[type="submit"]:hover {
+    background-color: darkgreen;
+}
+
+.boton-regresar {
+    display: inline-block;
+    background-color: seagreen;
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+.boton-regresar:hover {
+    background-color: darkgreen;
+    font-weight: bold;
+}
+
+/*FORMULARIO */
+
+#inscripcion h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#inscripcionForm {
+    width: 60%;
+    margin: 40px auto 60px auto;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 30px 40px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+
+#inscripcionForm h1, #inscripcionForm h2 {
+    text-align: center;
+    color: seagreen;
+    margin-bottom: 25px;
+    font-size: 28px;
+}
+
+
+#inscripcionForm label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333;
+    font-size: 18px;
+}
+
+
+#inscripcionForm input[type="text"], #inscripcionForm input[type="number"], #inscripcionForm input[type="email"], #inscripcionForm input[type="file"], #inscripcionForm select, #inscripcionForm textarea {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 25px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+label {
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 15px;
+    user-select: none;
+}
+  
+input[type="radio"] {
+    margin-left: 8px;
+    vertical-align: middle;
+}
+
+
+#inscripcionForm textarea {
+    resize: vertical;
+}
+
+#inscripcionForm input[type="submit"] {
+    background-color: seagreen;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+#inscripcionForm input[type="submit"]:hover {
+    background-color: darkgreen;
+    font-weight: bolder;
+}
+

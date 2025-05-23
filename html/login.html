@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+   <head>
+		<meta charset="UTF-8"/>
+		<title>Login</title>
+		<link rel="stylesheet" type="text/css" href="../css/stylesheet.css">
+   </head>
+   <body>
+		<form>
+			<fieldset>
+				<legend>Inicio sesion</legend>
+				<label for="usuario">Usuario</label>
+				<input type="text" id="usuario" size="30" maxlength="50" required />
+				<br/><br/>
+				<label for="contraseñaInicio">Contraseña</label>
+				<input id="contraseñaInicio" type="password"  size="30" maxlength="50" required />
+			</fieldset>
+            <br>
+			<input type="submit" value="Enviar"/>
+			<input type="reset" value="Borrar"/>
+        </form>
+            
+        <form>
+			<fieldset>
+				<legend>Registro</legend>
+				<label for="nombre">Nombre</label>
+				<input type="text" id="nombre" size="30" maxlength="50" required />
+				<br/><br/>
+				<label for="apellido">Apellido</label>
+				<input type="text" id="apellido" size="30" maxlength="50" required />
+				<br/><br/>
+				<label for="email">Email</label>
+				<input type="text" id="email" size="50" maxlength="100" />
+				<br/><br/>
+				<label for="fecha">Fecha Nacimiento:</label>
+				<input type="date" id="fecha" name="fecha">
+				<br/><br/>
+				
+				<br/><br/>
+				<label for="contraseñaRegistro">Contraseña</label>
+				<input id="contraseñaRegistro" type="password"  size="30" maxlength="50" required />
+			</fieldset>
+            <br>
+			<input type="submit" value="Enviar"/>
+			<input type="reset" value="Borrar"/>
+			
+		</form>
+		<a href="../index.html" class="boton-regresar">Regresar</a>
+		
+   </body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulario de Inscripción Deportiva</title>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" type="text/css" href="../css/stylesheet.css">
+</head>
+<body id="inscripcion">
+
+	<h1>Formulario de Inscripción a Eventos Deportivos</h1>
+
+	<form id="inscripcionForm" method="post">
+    	<label for="nombre">Nombre completo:</label><br>
+    	<input type="text" id="nombre" name="nombre" minlength="3" maxlength="20" required><br><br>
+
+    	<label for="edad">Edad:</label><br>
+    	<input type="number" id="edad" name="edad" min="6" max="88" required><br><br>
+
+    	<p><strong>Género:</strong></p><br>
+    	
+    	<label for="masculino">Masculino
+            <input type="radio" id="masculino" name="genero" value="Masculino" required>
+    	    
+        </label><br>
+    	<label for="femenino">Femenino
+            <input type="radio" id="femenino" name="genero" value="Femenino">
+    	   
+        </label><br>
+    	<label for="otro">Otro 
+            <input type="radio" id="otro" name="genero" value="Otro">
+        </label><br><br>
+
+    	<label for="deporte">Selecciona el deporte:</label><br>
+    	<select id="deporte" name="deporte" required>
+        	<option value="">--Seleccione--</option>
+        	<option value="futbol">Fútbol</option>
+        	<option value="baloncesto">Baloncesto</option>
+        	<option value="natacion">Natación</option>
+        	<option value="atletismo">Atletismo</option>
+        	<option value="tenis">Tenis</option>
+    	</select><br><br>
+
+    	<label for="email">Correo electrónico:</label><br>
+    	<input type="email" id="email" name="email" required><br><br>
+		
+		<label for="dni">Foto DNI:</label><br>
+		<input type="file" id="dni" name="dni"><br><br>
+
+    	<label for="comentarios">Comentarios adicionales:</label><br>
+    	<textarea id="comentarios" name="comentarios" rows="4" cols="40"></textarea><br><br>
+
+    	<input type="submit" value="Enviar inscripción">
+	</form>
+    <script src="../js/javascriptformulario.js"></script>
+    <a href="../index.html" class="boton-regresar">Regresar</a>
+</body>
+</html>
